@@ -1,14 +1,3 @@
-Hide Panel
-Menu	Edit Text Editor	
-Widgets Panel
-Content
-Style
-Advanced
-Text Editor
-Dynamic	
- Add Media 
-Add Form
-VisualText
 <h1><a href="http://sesam.co"><strong>Take your business to the next level with our digital marketing services</strong></a></h1>
 <h3>Convert and send any Elementor form’s submission into a PDF file</h3>
 
