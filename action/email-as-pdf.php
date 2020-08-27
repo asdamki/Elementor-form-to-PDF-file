@@ -66,7 +66,7 @@ class EmailAsPDF extends \ElementorPro\Modules\Forms\Classes\Action_Base {
 			]
 		);
 
-		$site_domain = \ElementorPro\Classes\Utils::get_site_domain();
+		$site_domain = \ElementorPro\Core\Utils::get_site_domain();
 
 		$widget->add_control(
 			$this->get_control_id( 'emailaspdf_from' ),
@@ -215,7 +215,7 @@ class EmailAsPDF extends \ElementorPro\Modules\Forms\Classes\Action_Base {
 			'emailaspdf_content' => '[all-fields]',
 			'emailaspdf_from_name' => get_bloginfo( 'name' ),
 			'emailaspdf_from' => get_bloginfo( 'admin_email' ),
-			'emailaspdf_reply_to' => 'noreplay@' . \ElementorPro\Classes\Utils::get_site_domain(),
+			'emailaspdf_reply_to' => 'noreplay@' . \ElementorPro\Core\Utils::get_site_domain(),
 			'emailaspdf_to_cc' => '',
 			'emailaspdf_to_bcc' => '',
 		];
